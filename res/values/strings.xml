@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BakalarkaPerformanceTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="participantCount">No. of participants:</string>
+    <string name="runTest">Run test</string>
+    <string name="permLength">Permutation length:</string>
+    <string name="proofCount">Number of proofs:</string>
+    <string name="permKeySize">Permutation key size:</string>
+
+    <string-array name="partic_count">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="perm_size">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+    </string-array>
+    <string-array name="proof_iterations">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+    </string-array>
+    <string-array name="perm_key_size">
+        <item>64</item>
+        <item>128</item>
+        <item>256</item>
+        <item>512</item>
+    </string-array>
+    <string-array name="aes_key_size">
+        <item>128</item>
+        <item>192</item>
+        <item>256</item>
+        <item>512</item>
+    </string-array>
+    <string-array name="rsa_key_size">
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+    </string-array>
+    <string-array name="message_length">
+        <item>5</item>
+        <item>50</item>
+        <item>100</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>10000</item>
+        <item>100000</item>
+        <item>1000000</item>
+    </string-array>
+
+    <string name="title_activity_perform_test">PerformTestActivity</string>
+    <string name="permGenerationTime">Permutation generating time (ms):</string>
+    <string name="elementUncoverTime">Element uncover time (ms):</string>
+    <string name="encryptTime">AES encryption time (ms):</string>
+    <string name="decryptTime">AES decryption time (ms):</string>
+    <string name="signTime">RSA sign time (ms):</string>
+    <string name="verifyTime">RSA verify time (ms):</string>
+    <string name="title_activity_choose_test">ChooseTestActivity</string>
+    <string name="testPermutationGeneration">Test speed to generate permutation</string>
+    <string name="testEncryptionAndSignature">Test encryption &amp; signature speed</string>
+    <string name="title_activity_test_encryption">TestEncryptionActivity</string>
+    <string name="title_activity_configure_encrypt_test">ConfigureEncryptTestActivity</string>
+    <string name="aesKeySize">AES key size:</string>
+    <string name="rsaKeySize">RSA key size:</string>
+    <string name="messageLength">Length of message:</string>
+    <string name="keyAgreementTime">Key agreement time (ms):</string>
+    <string name="sessionKeyTime">Session key gen. time (ms):</string>
+
+</resources>

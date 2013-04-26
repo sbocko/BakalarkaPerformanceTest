@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerformTestActivity" >
+
+    <TextView
+        android:id="@+id/partCountTestTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/participantCount" />
+
+    <TextView
+        android:id="@+id/permLengthTestTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/partCountTestTV"
+        android:layout_below="@+id/partCountTestTV"
+        android:layout_marginTop="10dp"
+        android:text="@string/permLength" />
+
+    <TextView
+        android:id="@+id/proofCountTestTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/permLengthTestTV"
+        android:layout_below="@+id/permLengthTestTV"
+        android:layout_marginTop="10dp"
+        android:text="@string/proofCount" />
+
+    <TextView
+        android:id="@+id/permKeySizeTestTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/proofCountTestTV"
+        android:layout_below="@+id/proofCountTestTV"
+        android:layout_marginTop="10dp"
+        android:text="@string/permKeySize" />
+
+    <View
+        android:id="@+id/horizontalLine"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/permKeySizeTestTV"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="#000000" />
+    
+    <TextView
+        android:id="@+id/sessionKeyGeneratingTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/permKeySizeTestTV"
+        android:layout_below="@+id/horizontalLine"
+        android:layout_marginTop="10dp"
+        android:text="@string/sessionKeyTime" />
+
+    <TextView
+        android:id="@+id/permGeneratingTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sessionKeyGeneratingTV"
+        android:layout_below="@+id/sessionKeyGeneratingTV"
+        android:layout_marginTop="10dp"
+        android:text="@string/permGenerationTime" />
+
+    <TextView
+        android:id="@+id/elementUncoverTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/permGeneratingTV"
+        android:layout_below="@+id/permGeneratingTV"
+        android:layout_marginTop="10dp"
+        android:text="@string/elementUncoverTime" />
+
+</RelativeLayout>

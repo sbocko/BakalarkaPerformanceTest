@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseTestActivity" >
+
+    <Button
+        android:id="@+id/testPermutationBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:onClick="testPermutationBtnClicked"
+        android:text="@string/testPermutationGeneration" />
+
+    <Button
+        android:id="@+id/testEncryptionAndSignatureBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/testPermutationBtn"
+        android:layout_alignRight="@+id/testPermutationBtn"
+        android:layout_below="@+id/testPermutationBtn"
+        android:layout_marginTop="10dp"
+        android:onClick="testEncryptionAndSignatureBtnClicked"
+        android:text="@string/testEncryptionAndSignature" />
+
+</RelativeLayout>

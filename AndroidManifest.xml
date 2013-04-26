@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sk.upjs.bocko.bakalarka.bakalarkaperformancetest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="9" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="sk.upjs.bocko.bakalarka.bakalarkaperformancetest.PerformanceTestApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="sk.upjs.bocko.bakalarka.bakalarkaperformancetest.ConfigurePermTestActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="sk.upjs.bocko.bakalarka.bakalarkaperformancetest.TestPermutationActivity"
+            android:label="@string/title_activity_perform_test" >
+        </activity>
+        <activity
+            android:name="sk.upjs.bocko.bakalarka.bakalarkaperformancetest.ChooseTestActivity"
+            android:label="@string/title_activity_choose_test" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="sk.upjs.bocko.bakalarka.bakalarkaperformancetest.TestEncryptionActivity"
+            android:label="@string/title_activity_test_encryption" >
+        </activity>
+        <activity
+            android:name="sk.upjs.bocko.bakalarka.bakalarkaperformancetest.ConfigureEncryptTestActivity"
+            android:label="@string/title_activity_configure_encrypt_test" >
+        </activity>
+    </application>
+
+</manifest>
